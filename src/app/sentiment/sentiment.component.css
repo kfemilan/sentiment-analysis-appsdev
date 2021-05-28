@@ -1,0 +1,49 @@
+.scores {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.wrap {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+}
+
+.inputs {
+    text-align: center;
+    margin: 3%;
+    
+}
+
+input {
+    width: 50%;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+input[type=text]:focus {
+    border-bottom: 5px solid dodgerblue;
+    outline: none;
+    transition: 100ms ease-in-out;
+}
+
+button {
+    width: 15%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    background-color:dodgerblue;
+}
+
+.title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    color: dodgerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2%;
+}

@@ -1,0 +1,17 @@
+<div class="wrap">
+    <div class="title">
+        <h1>SENTIMENT ANALYSIS</h1>
+    </div>
+    <div class="inputs">
+        <form autocomplete="off">
+                <p><input [(ngModel)]="txt" type="text" name="input"></p>
+                <p><button (click)="getScore()">SUBMIT</button></p>
+        </form>
+    </div>
+    <div class="scores">
+        <app-score [name]="names[0]" [score]="pos"></app-score>
+        <app-score [name]="names[1]" [score]="neu"></app-score>
+        <app-score [name]="names[2]" [score]="neg"></app-score>
+        <app-score [name]="names[3]" [score]="comp"></app-score>
+    </div>
+</div>

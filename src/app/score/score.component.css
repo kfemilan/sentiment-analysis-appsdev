@@ -1,0 +1,16 @@
+div{
+    border-radius: 20px;
+    background-color:dodgerblue;
+    width: 100%;
+    padding: 25%;
+    margin: 10%;
+}
+
+h1, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
